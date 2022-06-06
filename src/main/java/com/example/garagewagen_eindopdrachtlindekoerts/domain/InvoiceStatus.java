@@ -1,2 +1,4 @@
-package com.example.garagewagen_eindopdrachtlindekoerts.domain;public enum InvoiceStatus {
+package com.example.garagewagen_eindopdrachtlindekoerts.domain;
+
+public enum InvoiceStatus {
 }

@@ -1,2 +1,4 @@
-package com.example.garagewagen_eindopdrachtlindekoerts.domain;public enum RepairLineStatus {
+package com.example.garagewagen_eindopdrachtlindekoerts.domain;
+
+public enum RepairLineStatus {
 }

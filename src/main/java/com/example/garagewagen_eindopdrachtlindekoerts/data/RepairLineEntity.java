@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.*;
 import io.swagger.v3.oas.annotations.media.Schema;
-import com.example.garagewagen_eindopdrachtlindekoerts.domain.RepairLineType;
 
 import java.util.UUID;
 import javax.persistence.*;
