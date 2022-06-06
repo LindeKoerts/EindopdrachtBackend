@@ -10,9 +10,9 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>GarageWagen_EindopdrachtLindeKoerts</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <name>GarageWagen_EindopdrachtLindeKoerts</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Integrale eindopdracht Backend Programming o.b.v. voorbeeld garage casus</description>
     <properties>
         <java.version>11</java.version>
     </properties>
