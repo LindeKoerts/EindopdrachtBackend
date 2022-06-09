@@ -13,7 +13,7 @@ import org.mapstruct.NullValuePropertyMappingStrategy;
         componentModel = "spring",
         nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE
 )
-public interface ActionMapper extends EntityMapper<ActionEntity, CreateActionDto, UpdateActionDto> {
+public interface ActionMapper {
 
     @Mapping(source = "id", target = "id", qualifiedByName = "parseUUIDOrRandom")
     ActionEntity fromCreateDto(final CreateActionDto createDto);
