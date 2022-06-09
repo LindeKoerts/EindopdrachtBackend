@@ -12,18 +12,23 @@ import javax.validation.constraints.NotNull;
 
 @Data
 @Builder
-public class CreateActionDto implements CreateDto {
+public class CreatePartDto implements CreateDto {
 
-    @Schema(example = "fc6cbf76-837a-4ea6-a20b-0e22f817e55a", format = "uuid")
+    @Schema(example = "1bde1162-7da8-4a5b-b76c-becd8b7f9173", format = "uuid")
     private String id;
 
-    @Schema(example = "Vloeistof vervangen")
+    @Schema(example = "Remschijf")
     @NotBlank(message = "field is required")
     private String name;
 
-    @Schema(example = "Bakker")
+    @Schema(example = "32.50", format = "double")
     @NotNull(message = "field is required")
     @Min(value = 0, message = "the minimum value is 0")
     private Double price;
 
+    @Schema(example = "5")
+    @Min(value = 0, message = "the minimum value is 0")
+    private int stock;
+
 }
+

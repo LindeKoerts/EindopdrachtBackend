@@ -8,13 +8,18 @@ import javax.validation.constraints.Min;
 
 @Data
 @Builder
-public class UpdateActionDto {
+public class UpdatePartDto {
 
-    @Schema(example = "Ruitenvloeistof vervangen")
+    @Schema(example = "Banden")
     private String name;
 
-    @Schema(example = "34.99", format = "double")
+    @Schema(example = "199.95", format = "double")
     @Min(value = 0, message = "the minimum value is 0")
     public Double price;
 
+    @Schema(example = "2")
+    @Min(value = 0, message = "the minimum value is 0")
+    public Integer stock;
+
 }
+

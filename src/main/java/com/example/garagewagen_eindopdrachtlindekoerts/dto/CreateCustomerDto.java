@@ -11,31 +11,26 @@ import javax.validation.constraints.NotBlank;
 
 @Data
 @Builder
-public class CreateEmployeeDto implements CreateDto {
+public class CreateCustomerDto implements CreateDto {
 
-    @Schema(example = "74f61000-8193-4b75-9a50-3ced99961988", format = "uuid")
+    @Schema(example = "8102cd51-1f2f-4051-974f-b20dda3ea5ec", format = "uuid")
     private String id;
 
-    @Schema(example = "Gijs")
+    @Schema(example = "Bert")
     @NotBlank(message = "field is required")
     private String name;
 
-    @Schema(example = "Lanting")
+    @Schema(example = "Koerts")
     @NotBlank(message = "field is required")
     private String surname;
 
-    @Schema(example = "gijs.lanting@gmail.com", format = "email")
+    @Schema(example = "Bert.Koerts@gmail,com", format = "email")
     @Email(message = "isn't a valid email address")
     @NotBlank(message = "field is required")
     private String email;
 
-    @Schema(example = "Sterkww9201!")
+    @Schema(example = "+31 6 23556786")
     @NotBlank(message = "field is required")
-    private String password;
-
-    @Schema(example = "mechanic", allowableValues = {"admin", "administrative", "backoffice", "cashier", "mechanic"})
-    @NotBlank(message = "field is required")
-    private String role;
+    private String phone;
 
 }
-
