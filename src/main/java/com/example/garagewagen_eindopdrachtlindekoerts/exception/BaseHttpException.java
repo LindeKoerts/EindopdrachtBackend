@@ -1,7 +1,6 @@
 package com.example.garagewagen_eindopdrachtlindekoerts.exception;
 
-package com.example.garagewagen_eindopdrachtlindekoerts.exception;
-
+import com.example.garagewagen_eindopdrachtlindekoerts.domain.HttpErrorResponse;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
 

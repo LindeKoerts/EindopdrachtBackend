@@ -1,12 +1,11 @@
 package com.example.garagewagen_eindopdrachtlindekoerts.service;
 
-import com.example.garagewagen_eindopdrachtlindekoerts.dto.CreateActionDto;
-import com.example.garagewagen_eindopdrachtlindekoerts.dto.UpdateActionDto;
+import com.example.garagewagen_eindopdrachtlindekoerts.dto.CreateCustomerDto;
+import com.example.garagewagen_eindopdrachtlindekoerts.dto.UpdateCustomerDto;
 import com.example.garagewagen_eindopdrachtlindekoerts.data.CustomerEntity;
 import com.example.garagewagen_eindopdrachtlindekoerts.exception.EmailTakenException;
 import com.example.garagewagen_eindopdrachtlindekoerts.mapper.CustomerMapper;
 import com.example.garagewagen_eindopdrachtlindekoerts.repository.CustomerRepository;
-
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;

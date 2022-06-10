@@ -1,6 +1,10 @@
 package com.example.garagewagen_eindopdrachtlindekoerts.service;
 
-import com.example.garagewagen_eindopdrachtlindekoerts.mapper.
+import com.example.garagewagen_eindopdrachtlindekoerts.data.PartEntity;
+import com.example.garagewagen_eindopdrachtlindekoerts.dto.CreatePartDto;
+import com.example.garagewagen_eindopdrachtlindekoerts.dto.UpdatePartDto;
+import com.example.garagewagen_eindopdrachtlindekoerts.mapper.PartMapper;
+import com.example.garagewagen_eindopdrachtlindekoerts.repository.PartRepository;
 
 import org.springframework.stereotype.Service;
 

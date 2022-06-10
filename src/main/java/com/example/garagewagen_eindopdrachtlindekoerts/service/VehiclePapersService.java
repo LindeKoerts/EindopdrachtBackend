@@ -8,7 +8,7 @@ import com.example.garagewagen_eindopdrachtlindekoerts.projection.VehiclePapersW
 import com.example.garagewagen_eindopdrachtlindekoerts.dto.CreateVehiclePapersDto;
 import com.example.garagewagen_eindopdrachtlindekoerts.dto.UpdateVehiclePapersDto;
 import com.example.garagewagen_eindopdrachtlindekoerts.exception.FileUploadException;
-import com.example.garagewagen_eindopdrachtlindekoerts.ForbiddenFileTypeException;
+import com.example.garagewagen_eindopdrachtlindekoerts.exception.ForbiddenFileTypeException;
 
 import org.apache.commons.lang3.NotImplementedException;
 import org.apache.commons.lang3.StringUtils;
